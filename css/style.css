@@ -392,7 +392,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    max-width: 1200px;  /* Adjust as per your requirement */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -405,7 +405,7 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
-    border: solid 1px black;
+    border: solid 1px #02A9EA;
 }
 
 .portfolio__img {
