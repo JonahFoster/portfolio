@@ -487,7 +487,11 @@ header {
 }
 
 .portfolio-item-list {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
 }
 
 .portfolio-item-image {
