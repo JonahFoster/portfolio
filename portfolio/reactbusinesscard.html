@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Instagram Clone</title>
+        <title>React Business Card</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
         <header>
             <div class="logo">
-                <a href="index.html">
-                    <img src="images/jonahlogo.png" alt="Home Page Link">
+                <a href="../index.html">
+                    <img src="../images/jonahlogo.png" alt="Home Page Link">
                 </a>
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
@@ -23,40 +23,36 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="../index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
-        
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                Instagram <strong>Clone</strong>
+                Business <strong>Card</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Hologram</p>
-            <img src="images/instagramclone.png" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">Built in React</p>
+            <img src="../images/reactbusinesscard.png" alt="" class="intro__img">
         </section>
         
         <div class="portfolio-item-individual">
-            <p>While completing the Front-End Web Developer course through Scrimba, I was assigned this project with the following requirements:</p>
+            <p>My first foray into React is this static digital business card. It was a great opportunity to learn the fundamentals of React
+                and interact with components for the first time. This project was assigned to me through the Scrimba Frontend Developer course with
+                the following requirements:
+            </p>
                 <div class="portfolio-item-list">
                     <ul>
-                        <li>Create the first post</li>
-                        <li>Use semantic HTML</li>
-                        <li>Add hover effects to each icon</li>
+                        <li>Build it from scratch</li>
+                        <li>Have separate components for Info, About, Interests, and the Footer.</li>
                     </ul>
                 </div>
-            <p>I went beyond those parameters for my project, utilizing JavaScript to render the posts, increase the likes when double clicking the post, removing likes when double clicking the post,
-                and changing the heart icon based on the like status of each post.
+            <p>This was an exciting project for me as I interacted with one of the most popular web technologies of today.
             </p>
-            <p>In executing this project, my strategy was first to construct the framework using HTML before transitioning to JavaScript for rendering posts. 
-                Initially, I employed 'innerHTML' for this task, but upon further consideration, I decided to refactor the script and use 'createElement' instead. 
-                This approach was chosen to circumvent potential security risks associated with user-generated content and to improve performance.
-            </p>
-            <p><a href="https://github.com/JonahFoster/scrimba-instagram-clone" target="_blank">Github</a> | <a href="https://starwars-hologram.netlify.app/" target="_blank">Hosted Page</a></p>
+            <p><a href="https://github.com/JonahFoster/business-card" target="_blank">Github</a> | <a href="https://delicate-rolypoly-73f3c0.netlify.app/" target="_blank">Hosted Page</a></p>
         </div>
         
         
@@ -83,7 +79,7 @@
         </footer>
         
         
-        <script src="js/index.js"></script>
+        <script src="../js/index.js"></script>
         
     </body>
 </html>

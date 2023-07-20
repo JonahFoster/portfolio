@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Unit Converter</title>
+        <title>React Travel Journal</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
         <header>
             <div class="logo">
-                <a href="index.html">
-                    <img src="images/jonahlogo.png" alt="Home Page Link">
+                <a href="../index.html">
+                    <img src="../images/jonahlogo.png" alt="Home Page Link">
                 </a>
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
@@ -23,34 +23,37 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="../index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
-        
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                Unit <strong>Converter</strong>
+                Travel <strong>Journal</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">American Friendly!</p>
-            <img src="images/unitconversion.png" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">Built in React</p>
+            <img src="../images/reacttraveljournal.png" alt="" class="intro__img">
         </section>
         
         <div class="portfolio-item-individual">
-            <p>While completing the Front-End Web Developer course through Scrimba, I was assigned this project with the following requirements:</p>
+            <p>After building the digital business card, my next React project was this dynamically generated travel journal.
+               It processes an array of objects from a separate JavaScript file to build the page. Additionally, I use React props
+               to feed the components information. It was assigned to me through the Scrimba Frontend Developer course with the following requirements:
+            </p>
                 <div class="portfolio-item-list">
                     <ul>
-                        <li>Build it from scratch</li>
-                        <li>Generate two random passwords when the user clicks the button.</li>
-                        <li>Each password should be 15 characters long</li>
+                        <li>Use a data array from a separate .js file</li>
+                        <li>Use .map() and props</li>
                     </ul>
                 </div>
-            <p>This project was especially notable to me since it was the first time I built a JavaScript project more complex than simple counting. I also went above and beyond the project parameters, adding the ability to toggle on symbols and numbers in the generated passwords.</p>
-            <p><a href="https://github.com/JonahFoster/scrimba-passwordgen" target="_blank">Github</a> | <a href="https://stunning-faun-52cd89.netlify.app/" target="_blank">Hosted Page</a></p>
+            <p>This was the first project where I conditionally displayed content on the page. I decided to only display a second date if one exists 
+                to provide support for day trips.
+            </p>
+            <p><a href="https://github.com/JonahFoster/react-travel-journal" target="_blank">Github</a> | <a href="https://mellow-concha-eed631.netlify.app/" target="_blank">Hosted Page</a></p>
         </div>
         
         
@@ -77,7 +80,7 @@
         </footer>
         
         
-        <script src="js/index.js"></script>
+        <script src="../js/index.js"></script>
         
     </body>
 </html>

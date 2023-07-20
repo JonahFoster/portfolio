@@ -4,18 +4,18 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CPET Internship</title>
+        <title>Instagram Clone</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
     </head>
     <body>
         <header>
             <div class="logo">
-                <a href="index.html">
-                    <img src="images/jonahlogo.png" alt="Home Page Link">
+                <a href="../index.html">
+                    <img src="../images/jonahlogo.png" alt="Home Page Link">
                 </a>
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
@@ -23,10 +23,10 @@
             </button>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="../index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,18 +34,29 @@
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                CPET <strong>Internship</strong>
+                Instagram <strong>Clone</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Experience!</p>
-            <img src="images/cpet.png" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">Hologram</p>
+            <img src="../images/instagramclone.png" alt="" class="intro__img">
         </section>
         
         <div class="portfolio-item-individual">
-            <p>In my junior year at the University of Florida, I enrolled in the <a href="https://caires.center.ufl.edu/education/" target="_blank">Active Learning Program</a> (ALP). The ALP helps students develop professional experience while learning about sustainability, culminating in a final poster presentation.</p>
-            <p>Through the ALP, I had the opportunity to work with the <a href="https://www.cpet.ufl.edu/" target="_blank"> Center for Precollegiate Education and Training</a>, an organization dedicated to promoting education equity through programs for talented high school students.</p>
-            <p>While interning at CPET, I led an overhaul of the website to improve accessibility and navigation, while also making it easier to maintain in the future. The project required me to become very familiar with
-                TerminalFour and the University of Florida 2015 template, including completing TerminalFour's poweruser training.
+            <p>While completing the Front-End Web Developer course through Scrimba, I was assigned this project with the following requirements:</p>
+                <div class="portfolio-item-list">
+                    <ul>
+                        <li>Create the first post</li>
+                        <li>Use semantic HTML</li>
+                        <li>Add hover effects to each icon</li>
+                    </ul>
+                </div>
+            <p>I went beyond those parameters for my project, utilizing JavaScript to render the posts, increase the likes when double clicking the post, removing likes when double clicking the post,
+                and changing the heart icon based on the like status of each post.
             </p>
+            <p>In executing this project, my strategy was first to construct the framework using HTML before transitioning to JavaScript for rendering posts. 
+                Initially, I employed 'innerHTML' for this task, but upon further consideration, I decided to refactor the script and use 'createElement' instead. 
+                This approach was chosen to circumvent potential security risks associated with user-generated content and to improve performance.
+            </p>
+            <p><a href="https://github.com/JonahFoster/scrimba-instagram-clone" target="_blank">Github</a> | <a href="https://starwars-hologram.netlify.app/" target="_blank">Hosted Page</a></p>
         </div>
         
         
@@ -72,7 +83,7 @@
         </footer>
         
         
-        <script src="js/index.js"></script>
+        <script src="../js/index.js"></script>
         
     </body>
 </html>
